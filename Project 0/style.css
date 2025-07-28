@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif; /* Set a default font */
+}
+
+form {
+    display: flex;
+    justify-content: center; /* Horizontally centers content */
+    align-items: center; /* Vertically centers content */        min-height: 100vh; /* Example: Centers vertically in the viewport */       
+}
+
+#submit, #lucky{
+    width: 150px; /* Set a fixed width for the button */
+    height: 35px; /* Set a fixed height for the button */
+    background-color: #f3f5f6;
+    color: black; 
+    border: none;  
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: medium;
+    text-align: center;
+    text-decoration: none;
+    line-height: 35px; /* Center text vertically */
+    display: inline-block;
+}
+
+#search_bar {
+    width: 700px; /* Set a fixed width for the search bar */
+    height: 35px; /* Set a fixed height for the search bar */
+    padding: 5px; /* Add some padding for better appearance */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 40px; /* Rounded corners */
+    font-size: 20px;
+    padding-left: 25px;
+}
+.container {
+    display: flex;
+    flex-direction: row; /* Stack children vertically */
+    align-items: center; /* Center children horizontally */
+    justify-content: center; /* Center children vertically */
+    gap: 10px; /* Space between children */
+    margin-top: 20px; /* Add some space above the container */
+}
+
+.big_container {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center children horizontally */
+    justify-content: center; /* Center children vertically */
+    gap: 10px; /* Space between children */
+    margin-top: 20px; /* Add some space above the container */
+}
+
+img {
+    width: 250px; /* Set a fixed width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Make it a block-level element to center with margin: auto */
+}
